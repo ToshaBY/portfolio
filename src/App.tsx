@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-      This is just a start
-    </div>
+    <>
+        <h1>This is my portfolio</h1>
+    </>
   );
 }
 
