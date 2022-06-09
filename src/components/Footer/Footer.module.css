@@ -1,0 +1,36 @@
+.footer {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ebffe4;
+}
+
+.footer__name {
+}
+
+.footer__social {
+    margin: 20px auto;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    border: 1px solid black;
+}
+
+.footer__socialItem {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+    background-color: lightskyblue;
+}
+
+.footer__copyright {
+
+}

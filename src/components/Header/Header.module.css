@@ -4,21 +4,13 @@
     margin: 0 auto;
 
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-
 
     background-color: #d0ecfc;
 }
 
-.header__title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .header__menu {
     width: 400px;
+    align-self: center;
 
     display: flex;
     flex-direction: row;
@@ -29,5 +21,5 @@
 }
 
 .header__menuItem {
-
+    color: blue;
 }
