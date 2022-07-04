@@ -3,17 +3,6 @@
     background-color: #f8adb9;
 }
 
-.container {
-    border: 1px solid;
-    width: 80%;
-    height: 100%;
-    margin: 0 auto;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
 .content {
     width: 300px;
     background-color: #a47277;
