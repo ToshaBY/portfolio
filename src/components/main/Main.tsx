@@ -7,9 +7,9 @@ export const Main = React.memo(() => {
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
                 <div className={style.content}>
-                    <span>Hi there</span>
+                    <span>Hi there,</span>
                     <h1>I'm Anton Rybakou</h1>
-                    <p>front-end developer</p>
+                    <p>Front-end developer</p>
                 </div>
                 <div className={style.photo}></div>
             </div>

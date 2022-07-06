@@ -11,5 +11,9 @@
 .icon {
     height: 60px;
     width: 60px;
-    background-color: #ffffff;
+    background-color: #ec7f7f;
+}
+
+.description {
+    text-align: center;
 }

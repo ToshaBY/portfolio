@@ -8,37 +8,40 @@ export const Skills = React.memo(() => {
     const skills = [
         {
             title: 'HTML',
-            description: 'HTML is the most basic building block of the Web. It describes the structure of your Web pages and provides the necessary tools to build them.'
+            description: 'HTML is the most basic building block of the Web.' +
+                'It describes the content of a webpage and how it should be displayed.'
         },
         {
             title: 'CSS',
-            description: 'CSS is a style sheet language used to describe the presentation of a document written in HTML. CSS is designed to enable you to control the style of a web page by applying rules to each HTML element.'
+            description: 'CSS is a style sheet language used to describe the style of an HTML document.' +
+                'It is used to describe how HTML elements should be displayed.'
         },
         {
             title: 'JavaScript',
-            description: 'JavaScript is a lightweight, interpreted programming language with first-class functions. It is most commonly used to make web pages interactive, but it can also be used to make a variety of things, including serving as a scripting language for back-end programming, and is used in a wide variety of devices and applications.'
+            description: 'JavaScript is a lightweight, interpreted programming language with first-class functions.' +
+                'It is most commonly used to make web pages interactive, but it can also be used to make a variety of other things.'
         },
         {
             title: 'React',
-            description: 'React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.'
+            description: 'React is a JavaScript library for building user interfaces.' +
+                'It is used for building single-page applications, mobile apps, and everything in between.'
         },
         {
             title: 'TypeScript',
-            description: 'TypeScript is a strict superset of JavaScript that compiles to plain JavaScript. It is a programming language that adds optional static typing to the JavaScript language.'
-        }
-
-
+            description: 'TypeScript is a superset of JavaScript that compiles to plain JavaScript.' +
+                'It is used to write more concise code than JavaScript.'
+        },
     ]
 
     return (
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <h2 className={style.title}>Skills</h2>
-                <div className={style.skills}>
+                <div className={styleContainer.contentContainer}>
                     {
-                        skills.map( el => {
+                        skills.map(el => {
                             return <Skill title={el.title}
-                                    description={el.description}/>
+                                          description={el.description}/>
                         })
                     }
                 </div>

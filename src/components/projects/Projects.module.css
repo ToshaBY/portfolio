@@ -1,0 +1,13 @@
+.projectsBlock {
+    min-height: 100vh;
+    background-color: #5fbbd7;
+}
+
+.projectsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: aqua;
+}
