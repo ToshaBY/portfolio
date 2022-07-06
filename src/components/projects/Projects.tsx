@@ -9,7 +9,7 @@ export const Projects = React.memo(() => {
             title: 'Counter',
             description: 'Simple counter',
             url: 'https://toshaby.github.io/it-incubator-counter//',
-            image: './src/assets/images/projects/counter.png'
+            image: ''
         },
         {
             title: 'To-Do List',

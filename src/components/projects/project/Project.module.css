@@ -13,8 +13,7 @@
     width: 100%;
     height: 80%;
 
-    background-size: cover;
-    background-position: center;
+    background: #b171ee;
 
     display: flex;
     align-items: center;

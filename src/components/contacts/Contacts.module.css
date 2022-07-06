@@ -1,0 +1,26 @@
+.contactsBlock {
+    min-height: 30vh;
+    background-color: #7c71ff;
+
+    display: flex;
+    align-items: center;
+}
+
+.contactsContainer {
+    border: 1px solid;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.form {
+    border: 1px solid;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-evenly;
+}
