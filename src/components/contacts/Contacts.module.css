@@ -8,14 +8,20 @@
 
 .contactsContainer {
     flex-direction: column;
-    gap: 10px;
 }
 
-.form {
-    border: 1px solid;
+.formContainer {
+    background-color: grey;
+    width: 50%;
 
     display: flex;
     flex-direction: column;
     gap: 10px;
     justify-content: space-evenly;
+}
+
+.formContainer input, .formContainer textarea {
+    all: unset;
+    background-color: white;
+    width: 100%;
 }

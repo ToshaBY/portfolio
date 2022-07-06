@@ -1,1 +1,6 @@
-# Portfolio v0.1
+# Portfolio: Anton Rybakou
+
+
+### Libraries
+- [react-fontawesome](https://github.com/FortAwesome/react-fontawesome)
+- 
