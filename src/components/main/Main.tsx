@@ -13,8 +13,6 @@ export const Main = React.memo(() => {
                 </div>
                 <div className={style.photo}></div>
             </div>
-
-
         </div>
     );
 })
