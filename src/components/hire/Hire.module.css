@@ -1,5 +1,5 @@
 .hireBlock {
-    min-height: 25vh;
+    min-height: calc(100vh / 3);
     background-color: #fc5b5b;
 
     display: flex;

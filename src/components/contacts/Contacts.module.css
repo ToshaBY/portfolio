@@ -1,5 +1,5 @@
 .contactsBlock {
-    min-height: 30vh;
+    min-height: calc(100vh / 3);
     background-color: #7c71ff;
 
     display: flex;

@@ -1,23 +1,22 @@
 import React from 'react';
 import style from './Footer.module.css';
+import styleContainer from "../../common/styles/Container.module.css";
 
 export const Footer = React.memo(() => {
     return (
-        <>
-            <div className={style.footer}>
-                <div className={style.footer__name}>
-                    Anton Rybakou
+        <div className={style.footerBlock}>
+            <div className={`${styleContainer.container} ${style.footerContainer}`}>
+                <h2>Anton Rybakou</h2>
+                <div className={style.socialBlock}>
+                    <div className={style.socialItem}/>
+                    <div className={style.socialItem}/>
+                    <div className={style.socialItem}/>
+                    <div className={style.socialItem}/>
                 </div>
-                <div className={style.footer__social}>
-                    <div className={style.footer__socialItem}/>
-                    <div className={style.footer__socialItem}/>
-                    <div className={style.footer__socialItem}/>
-                    <div className={style.footer__socialItem}/>
-                </div>
-                <div className={style.footer__copyright}>
+                <div className={style.copyright}>
                     © 2022 All rights reserved
                 </div>
             </div>
-        </>
+        </div>
     );
 })
