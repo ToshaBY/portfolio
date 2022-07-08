@@ -8,7 +8,12 @@ type ProjectsPropsType = {
     image: string
 }
 
-export const Project: React.FC<ProjectsPropsType> = React.memo(({title, description, url, image}) => {
+export const Project: React.FC<ProjectsPropsType> = React.memo(({
+                                                                    title,
+                                                                    description,
+                                                                    url,
+                                                                    image
+                                                                }) => {
     return (
         <div className={style.project}>
             <div className={style.imageContainer}

@@ -31,7 +31,10 @@ export const Projects = React.memo(() => {
     return (
         <div className={style.projectsBlock}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <h2 className={style.title}>Projects</h2>
+                <div className={style.title}>
+                    <h2>Projects</h2>
+                </div>
+
                 <div className={styleContainer.contentContainer}>
                     {
                         projects.map(el => {

@@ -1,6 +1,6 @@
 .projectsBlock {
     min-height: 55vh;
-    background-color: #5fbbd7;
+    background-color: #d4ffc0;
 }
 
 .projectsContainer {
@@ -10,4 +10,7 @@
 
 .title {
     background-color: aqua;
+}
+.title h2 {
+
 }
