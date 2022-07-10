@@ -2,15 +2,7 @@ import React from 'react';
 import style from './Skills.module.css';
 import styleContainer from '../../common/styles/Container.module.css';
 import {Skill} from "./skill/Skill";
-import {
-    faCss3Alt,
-    faGitAlt,
-    faGithub,
-    faHtml5,
-    faJs,
-    faReact,
-    faTypo3
-} from '@fortawesome/free-brands-svg-icons'
+import {faCss3Alt, faGitAlt, faGithub, faHtml5, faJs, faReact, faTypo3} from '@fortawesome/free-brands-svg-icons'
 
 export const Skills = React.memo(() => {
     const skills = [
