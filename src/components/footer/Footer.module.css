@@ -13,13 +13,13 @@
     flex-flow: row wrap;
     gap: 50px;
     justify-content: space-around;
-
-    border: 1px solid;
 }
 
-.socialItem {
-    width: 50px;
-    height: 50px;
-
-    background-color: lightskyblue;
+.copyright {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
 }

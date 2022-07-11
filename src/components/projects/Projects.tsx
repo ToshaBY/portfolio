@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Projects.module.css';
 import styleContainer from "../../common/styles/Container.module.css";
 import {Project} from "./project/Project";
+import {Title} from "../../common/components/title/Title";
 
 export const Projects = React.memo(() => {
     const projects = [
@@ -9,21 +10,21 @@ export const Projects = React.memo(() => {
             id: 1,
             title: 'Counter',
             description: 'Simple counter',
-            url: 'https://toshaby.github.io/it-incubator-counter//',
+            url: 'https://toshaby.github.io/it-incubator-counter/',
             image: ''
         },
         {
             id: 2,
             title: 'To-Do List',
             description: 'Simple to-do list',
-            url: 'https://toshaby.github.io/it-incubator-todo-list-ts',
+            url: 'https://toshaby.github.io/it-incubator-todo-list-ts/',
             image: ''
         },
         {
             id: 3,
             title: 'Social network',
             description: 'Simple social network',
-            url: 'https://toshaby.github.io/it-incubator-samurai-way',
+            url: 'https://toshaby.github.io/it-incubator-samurai-way/',
             image: ''
         }
     ]
@@ -31,9 +32,7 @@ export const Projects = React.memo(() => {
     return (
         <div className={`${styleContainer.block} ${style.projectsBlock}`}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                <div className={style.title}>
-                    <h2>Projects</h2>
-                </div>
+                <Title title="Projects"/>
 
                 <div className={styleContainer.contentContainer}>
                     {

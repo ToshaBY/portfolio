@@ -1,16 +1,8 @@
 .projectsBlock {
     min-height: calc(100vh / 3 * 2);
-    background-color: #d4ffc0;
 }
 
 .projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
-}
-
-.title {
-    background-color: aqua;
-}
-.title h2 {
-
 }

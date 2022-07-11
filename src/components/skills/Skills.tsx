@@ -3,6 +3,7 @@ import style from './Skills.module.css';
 import styleContainer from '../../common/styles/Container.module.css';
 import {Skill} from "./skill/Skill";
 import {faCss3Alt, faGitAlt, faGithub, faHtml5, faJs, faReact, faTypo3} from '@fortawesome/free-brands-svg-icons'
+import {Title} from "../../common/components/title/Title";
 
 export const Skills = React.memo(() => {
     const skills = [
@@ -46,7 +47,8 @@ export const Skills = React.memo(() => {
     return (
         <div className={`${styleContainer.block} ${style.skillsBlock}`}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <h2 className={style.title}>Skills</h2>
+                <Title title={'Skills'}/>
+
                 <div className={styleContainer.contentContainer}>
                     {
                         skills.map(el => {

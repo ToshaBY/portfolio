@@ -4,10 +4,10 @@ import styleContainer from '../../common/styles/Container.module.css';
 
 export const Main = React.memo(() => {
     return (
-        <div className={style.mainBlock}>
+        <div className={`${styleContainer.block} ${style.mainBlock}`}>
             <div className={styleContainer.container}>
                 <div className={style.content}>
-                    <span>Hi there,</span>
+                    <span>Hello there,</span>
                     <h1>I'm Anton Rybakou</h1>
                     <p>Front-end developer</p>
                 </div>

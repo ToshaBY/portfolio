@@ -1,6 +1,5 @@
 .skillsBlock {
     min-height: calc(100vh / 3);
-    background-color: #282c34;
     color: white;
 }
 
@@ -10,5 +9,14 @@
 }
 
 .title {
-    /*background-color: #eeeef5;*/
+    margin-bottom: 30px;
+}
+
+.title h2 {
+    margin: 0;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 5px;
 }
