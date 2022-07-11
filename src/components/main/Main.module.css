@@ -6,7 +6,10 @@
 .content {
     width: 300px;
     background-color: #a47277;
+
+    font-family: 'Nunito', sans-serif;
 }
+
 
 .photo {
     width: 300px;

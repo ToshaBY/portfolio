@@ -1,9 +1,6 @@
 .footerBlock {
     min-height: calc(100vh / 3);
     background-color: #fadb60;
-
-    display: flex;
-    align-items: center;
 }
 
 .footerContainer {

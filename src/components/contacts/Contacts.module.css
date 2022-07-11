@@ -1,9 +1,6 @@
 .contactsBlock {
     min-height: calc(100vh / 3);
     background-color: #7c71ff;
-
-    display: flex;
-    align-items: center;
 }
 
 .contactsContainer {

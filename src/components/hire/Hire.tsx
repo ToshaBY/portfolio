@@ -5,7 +5,7 @@ import styleButton from '../../common/styles/Buttons.module.css';
 
 export const Hire = React.memo(() => {
     return (
-        <div className={style.hireBlock}>
+        <div className={`${styleContainer.block} ${style.hireBlock}`}>
             <div className={`${styleContainer.container} ${style.hireContainer}`}>
                 <h2 className={style.title}>Considering options for remote work</h2>
                 <button className={styleButton.primary}>Hire me</button>

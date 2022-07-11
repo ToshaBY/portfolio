@@ -5,7 +5,7 @@ import styleButton from "../../common/styles/Buttons.module.css";
 
 export const Contacts = React.memo(() => {
     return (
-        <div className={style.contactsBlock}>
+        <div className={`${styleContainer.block} ${style.contactsBlock}`}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <h2 className={style.title}>Contacts</h2>
                 <form className={style.formContainer}>

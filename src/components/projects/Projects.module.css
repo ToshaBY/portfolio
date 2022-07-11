@@ -1,5 +1,5 @@
 .projectsBlock {
-    min-height: 55vh;
+    min-height: calc(100vh / 3 * 2);
     background-color: #d4ffc0;
 }
 
