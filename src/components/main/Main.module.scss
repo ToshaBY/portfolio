@@ -14,15 +14,28 @@
     }
 
     & p {
-      @include text($fontPrimary, 16px, 200)
+      @include text($fontPrimary, 24px, 200)
     }
   }
 
   .photo {
     width: 300px;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 2px solid $textColor;
+    }
   }
 
   & img {
     width: 100%;
+    transform: rotate(-15deg);
+    z-index: 2;
   }
 }

@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["Contacts.module.scss","../../common/styles/sass/variables.scss","../../common/styles/sass/mixins.scss"],"names":[],"mappings":"AAGA;EACE;;AAEA;EACE;;AAEA;EACE;EAEA;EACA;EACA;EACA;;AAEA;EACE;EACA,kBCjBG;EDkBH;EACA;EElBN,aDCY;ECAZ,WFkBkC;EEjBlC,aFiB0C;EEhB1C,ODNU","file":"Contacts.module.css"}

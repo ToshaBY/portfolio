@@ -1,24 +1,25 @@
 .contactsBlock {
-    min-height: calc(100vh / 3);
-    background-color: #7c71ff;
+  min-height: 33.3333333333vh;
+}
+.contactsBlock .contactsContainer {
+  flex-direction: column;
+}
+.contactsBlock .contactsContainer .formContainer {
+  min-width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+.contactsBlock .contactsContainer .formContainer input, .contactsBlock .contactsContainer .formContainer textarea {
+  all: unset;
+  background-color: #2d2d2d;
+  width: 100%;
+  padding: 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: normal;
+  font-weight: 300;
+  color: white;
 }
 
-.contactsContainer {
-    flex-direction: column;
-}
-
-.formContainer {
-    background-color: grey;
-    width: 50%;
-
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-
-.formContainer input, .formContainer textarea {
-    all: unset;
-    background-color: white;
-    width: 100%;
-}
+/*# sourceMappingURL=Contacts.module.css.map */
