@@ -1,19 +1,15 @@
 import React from 'react';
-import style from './Skill.module.css';
-import {IconProp} from "@fortawesome/fontawesome-svg-core";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import style from './Skill.module.scss';
 
 type SkillPropsType = {
     title: string,
-    icon: IconProp
+    icon: string
 }
 
 export const Skill: React.FC<SkillPropsType> = React.memo(({title, icon}) => {
     return (
         <div className={style.skill}>
-            <FontAwesomeIcon icon={icon}
-                             size={'5x'}
-                             color={'white'}/>
+            <img src={icon} alt={'skillImage'}/>
             <h3>{title}</h3>
         </div>
     );

@@ -1,16 +1,15 @@
 @import "../../../common/styles/sass/variables";
+@import "../../../common/styles/sass/mixins";
 
 .title {
-  font-family: 'Nunito', sans-serif;
+
   margin: 0 0 30px;
-  font-weight: 300;
-  color: $textColor;
+  @include text($fontPrimary, 24px, 300);
+
   text-transform: capitalize;
-  font-size: 24px;
   line-height: 1.2;
   letter-spacing: 5px;
   position: relative;
-
   & h2 {
     margin: 0;
   }

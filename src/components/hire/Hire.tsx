@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Hire.module.css';
+import style from './Hire.module.scss';
 import styleContainer from '../../common/styles/Container.module.scss';
 import styleButton from '../../common/styles/Buttons.module.css';
 

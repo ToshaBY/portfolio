@@ -1,32 +1,34 @@
 import React from 'react';
-import style from './Footer.module.css';
+import style from './Footer.module.scss';
 import styleContainer from "../../common/styles/Container.module.scss";
 import {Title} from "../../common/components/title/Title";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithubSquare, faLinkedin, faTelegram} from "@fortawesome/free-brands-svg-icons";
+
+import {SocialItem} from "./socialItem/SocialItem";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 
+
 export const Footer = React.memo(() => {
+    const socialLinks = [
+        {id: 1, icon: faGithubSquare, link: 'https://github.com/ToshaBY'},
+        {id: 2, icon: faLinkedin, link: 'https://www.linkedin.com/in/tosharybakov/'},
+        {id: 3, icon: faTelegram, link: 'https://t.me/untosha'},
+        {id: 4, icon: faEnvelope, link: 'mailto:anton.rybakou@gmail.com'}
+    ]
+
     return (
         <div className={`${styleContainer.block} ${style.footerBlock}`}>
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <Title title={'Anton Rybakou'}/>
-
                 <div className={style.socialBlock}>
-                    <FontAwesomeIcon icon={faGithubSquare}
-                                     size={'3x'}
-                                     color={'white'}/>
-                    <FontAwesomeIcon icon={faLinkedin}
-                                     size={'3x'}
-                                     color={'white'}/>
-                    <FontAwesomeIcon icon={faTelegram}
-                                     size={'3x'}
-                                     color={'white'}/>
-                    <FontAwesomeIcon icon={faEnvelope}
-                                     size={'3x'}
-                                     color={'white'}/>
+                    {socialLinks.map(el => {
+                        return (
+                            <SocialItem key={el.id}
+                                        icon={el.icon}
+                                        link={el.link}/>
+                        )
+                    })}
                 </div>
-
                 <div className={style.copyright}>
                     © 2022 All rights reserved
                 </div>

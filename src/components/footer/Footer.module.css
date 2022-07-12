@@ -1,25 +1,28 @@
 .footerBlock {
-    min-height: calc(100vh / 3);
-    background-color: #fadb60;
+  min-height: 33.3333333333vh;
+  background-color: #fadb60;
+}
+.footerBlock .footerContainer {
+  flex-direction: column;
+  gap: 20px;
+}
+.footerBlock .footerContainer .socialBlock {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 50px;
+  justify-content: space-around;
+}
+.footerBlock .footerContainer .socialBlock img {
+  width: 62px;
+  height: 62px;
+}
+.footerBlock .footerContainer .copyright {
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.footerContainer {
-    flex-direction: column;
-    gap: 20px;
-}
-
-.socialBlock {
-    display: flex;
-    flex-flow: row wrap;
-    gap: 50px;
-    justify-content: space-around;
-}
-
-.copyright {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 200;
-    font-size: 12px;
-    color: #fff;
-    text-align: center;
-    margin-top: 20px;
-}
+/*# sourceMappingURL=Footer.module.css.map */

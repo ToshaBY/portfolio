@@ -1,6 +1,7 @@
 .project {
   width: 300px;
   padding: 10px;
+  border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
@@ -16,7 +17,7 @@
   align-items: center;
   justify-content: center;
 }
-.project .imageContainer::before {
+.project .imageContainer:hover::before {
   content: "";
   position: absolute;
   top: 0;
@@ -39,6 +40,7 @@
 }
 .project .imageContainer a:hover {
   background-color: rgba(0, 0, 0, 0.7);
+  color: yellow;
 }
 .project .descriptionContainer {
   padding: 10px;

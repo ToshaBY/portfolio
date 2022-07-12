@@ -1,0 +1,24 @@
+@import '../../common/styles/sass/variables';
+@import '../../common/styles/sass/mixins';
+
+.skillsBlock {
+    min-height: calc(100vh / 3);
+    color: white;
+}
+
+.skillsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.title h2 {
+    margin: 0;
+    @include text($fontPrimary, 36px, normal);
+    text-transform: capitalize;
+    line-height: 1.2;
+    letter-spacing: 5px;
+}

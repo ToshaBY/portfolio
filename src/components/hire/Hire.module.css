@@ -1,12 +1,16 @@
 .hireBlock {
-    min-height: calc(100vh / 3);
-    background-color: #fc5b5b;
+  min-height: 33.3333333333vh;
+  background-color: #fc5b5b;
+}
+.hireBlock .hireContainer {
+  flex-direction: column;
+}
+.hireBlock .hireContainer .title {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
 }
 
-.hireContainer {
-    flex-direction: column;
-}
-
-.title {
-    text-align: center;
-}
+/*# sourceMappingURL=Hire.module.css.map */
