@@ -1,18 +1,19 @@
 .nav {
-    width: 300px;
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .nav a {
-    font-family: 'Nunito', sans-serif;
-    color: white;
-    text-decoration: none;
-    font-weight: 200;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: 200;
 }
 
 .nav a:hover {
-    color: yellow;
+  color: yellow;
 }
+
+/*# sourceMappingURL=Nav.module.css.map */
