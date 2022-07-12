@@ -2,5 +2,7 @@
 
 
 ### Libraries
-- [react-fontawesome](https://github.com/FortAwesome/react-fontawesome)
-- 
+- [Sass/Scss](https://sass-lang.com/)
+- [react-fontawesome](https://fontawesome.com/)
+- [react-scroll](https://yarnpkg.com/package/react-scroll)
+- [gh-pages](https://yarnpkg.com/package/gh-pages)
