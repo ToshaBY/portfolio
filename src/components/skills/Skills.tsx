@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Skills.module.css';
-import styleContainer from '../../common/styles/Container.module.css';
+import styleContainer from '../../common/styles/Container.module.scss';
 import {Skill} from "./skill/Skill";
 import {faCss3Alt, faGitAlt, faGithub, faHtml5, faJs, faReact, faTypo3} from '@fortawesome/free-brands-svg-icons'
 import {Title} from "../../common/components/title/Title";

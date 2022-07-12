@@ -1,31 +1,32 @@
 .block {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
+
 .block:nth-child(odd) {
-    background-image: linear-gradient(#2d2d2d, #3f3f3f);
+  background-image: linear-gradient(#2d2d2d, #525252);
 }
+
 .block:nth-child(even) {
-    background-image: linear-gradient(#3f3f3f, #2d2d2d);
-    /*background-color: #3f3f3f;*/
+  background-image: linear-gradient(#525252, #2d2d2d);
 }
 
 .container {
-    width: 80%;
-    height: 100%;
-    margin: 0 auto;
-
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .contentContainer {
-    width: 100%;
-
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 20px;
-    justify-content: space-evenly;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-evenly;
 }
+
+/*# sourceMappingURL=Container.module.css.map */
