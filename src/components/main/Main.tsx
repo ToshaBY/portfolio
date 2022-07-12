@@ -86,7 +86,7 @@ export const Main = React.memo(() => {
                                 max: 250,
                             },
                             opacity: {
-                                value: 0.5,
+                                value: 0.7,
                             },
                             shape: {
                                 type: "circle",

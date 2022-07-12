@@ -20,7 +20,7 @@
         background-color: $bgColor1;
         width: 100%;
         padding: 10px;
-        @include text($fontPrimary, normal, 300)
+        @include text($fontPrimary, normal, 300);
       }
     }
   }
