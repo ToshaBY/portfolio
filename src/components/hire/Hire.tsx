@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Hire.module.css';
-import styleContainer from '../../common/styles/Container.module.css';
+import styleContainer from '../../common/styles/Container.module.scss';
 import styleButton from '../../common/styles/Buttons.module.css';
 
 export const Hire = React.memo(() => {

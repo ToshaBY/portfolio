@@ -1,15 +1,12 @@
 .project {
   width: 300px;
-  /*min-height: 300px;*/
-  /*border: 1px solid;*/
   padding: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
-  background-color: #3f3f3f;
+  background-color: #525252;
 }
-
-.imageContainer {
+.project .imageContainer {
   width: 100%;
   min-height: 250px;
   position: relative;
@@ -19,8 +16,7 @@
   align-items: center;
   justify-content: center;
 }
-
-.imageContainer::before {
+.project .imageContainer::before {
   content: "";
   position: absolute;
   top: 0;
@@ -29,43 +25,37 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
-.imageContainer a {
+.project .imageContainer a {
   position: relative;
-  /*z-index: 1;*/
   text-decoration: none;
   text-align: center;
-  color: white;
-  font-family: "Nunito", sans-serif;
-  font-size: 1.5rem;
-  font-weight: bold;
   width: 110px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
-}
-
-.imageContainer a:hover {
-  background-color: rgba(0, 0, 0, 0.7);
-}
-
-.descriptionContainer {
-  padding: 10px;
-}
-
-.projectTitle {
   font-family: "Nunito", sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
   color: white;
-  margin: 0 0 10px;
 }
-
-.description {
+.project .imageContainer a:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.project .descriptionContainer {
+  padding: 10px;
+}
+.project .descriptionContainer .projectTitle {
+  margin: 0 0 10px;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+.project .descriptionContainer .description {
+  margin: 0 0 10px;
   font-family: "Nunito", sans-serif;
   font-size: 1rem;
   font-weight: lighter;
   color: white;
-  margin: 0 0 10px;
 }
 
 /*# sourceMappingURL=Project.module.css.map */
