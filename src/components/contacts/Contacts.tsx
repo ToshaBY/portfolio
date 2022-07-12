@@ -6,7 +6,7 @@ import {Title} from "../../common/components/title/Title";
 
 export const Contacts = React.memo(() => {
     return (
-        <div className={`${styleContainer.block} ${style.contactsBlock}`}>
+        <div className={`${styleContainer.block} ${style.contactsBlock}`} id={'contacts'}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title title={'Contacts'}/>
 

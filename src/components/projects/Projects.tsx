@@ -38,7 +38,7 @@ export const Projects = React.memo(() => {
     ]
 
     return (
-        <div className={`${styleContainer.block} ${style.projectsBlock}`}>
+        <div className={`${styleContainer.block} ${style.projectsBlock}`} id={'projects'}>
             <div className={`${styleContainer.container} ${style.projectsContainer}`}>
                 <Title title="Projects"/>
 

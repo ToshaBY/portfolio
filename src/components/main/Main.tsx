@@ -5,7 +5,7 @@ import photo from '../../assets/images/photo.jpg'
 
 export const Main = React.memo(() => {
     return (
-        <div className={`${styleContainer.block} ${style.mainBlock}`}>
+        <div className={`${styleContainer.block} ${style.mainBlock}`} id={'main'}>
             <div className={styleContainer.container}>
                 <div className={style.content}>
                     <span>Hello there,</span>

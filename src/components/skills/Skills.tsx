@@ -27,7 +27,7 @@ export const Skills = React.memo(() => {
     ];
 
     return (
-        <div className={`${styleContainer.block} ${style.skillsBlock}`}>
+        <div className={`${styleContainer.block} ${style.skillsBlock}`} id={'skills'}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title title={'Skills'}/>
                 <div className={styleContainer.contentContainer}>

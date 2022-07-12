@@ -1,15 +1,14 @@
 import React from 'react';
 import style from './Nav.module.css';
-import { Link } from 'react-scroll';
+import { Link } from 'react-scroll'
 
 export const Nav = React.memo(() => {
     return (
-        <div className={style.nav}>
-            <Link to='/' spy={true} smooth={true} offset={50} duration={500}>Main</Link>
-            {/*<a href="</>">Main</a>*/}
-            {/*<a href="</>">Skills</a>*/}
-            {/*<a href="</>">Projects</a>*/}
-            {/*<a href="</>">Contacts</a>*/}
-        </div>
+        <nav className={style.nav}>
+            <Link to='main' spy={true} smooth={true} offset={0} duration={500}>Main</Link>
+            <Link to='skills' spy={true} smooth={true} offset={0} duration={500}>Skills</Link>
+            <Link to='projects' spy={true} smooth={true} offset={0} duration={500}>Projects</Link>
+            <Link to='contacts' spy={true} smooth={true} offset={0} duration={500}>Contacts</Link>
+        </nav>
     )
 })
