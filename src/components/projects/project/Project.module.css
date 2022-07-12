@@ -1,43 +1,71 @@
 .project {
-    width: 300px;
-    min-height: 300px;
-    border: 1px solid;
-
-    display: flex;
-    flex-direction: column;
-
-    background-color: #e8d16f;
+  width: 300px;
+  /*min-height: 300px;*/
+  /*border: 1px solid;*/
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  background-color: #3f3f3f;
 }
 
 .imageContainer {
-    width: 100%;
-    height: 80%;
+  width: 100%;
+  min-height: 250px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    background: #b171ee;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.imageContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .imageContainer a {
-    text-decoration: none;
-    text-align: center;
-    border: 1px solid;
+  position: relative;
+  /*z-index: 1;*/
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 110px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
 
-    width: 50px;
-    background-color: #70ef36;
+.imageContainer a:hover {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .descriptionContainer {
-    border: 1px solid;
-
+  padding: 10px;
 }
 
-.title {
-    border: 1px solid;
+.projectTitle {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin: 0 0 10px;
 }
 
 .description {
-    border: 1px solid;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+  font-weight: lighter;
+  color: white;
+  margin: 0 0 10px;
 }
+
+/*# sourceMappingURL=Project.module.css.map */

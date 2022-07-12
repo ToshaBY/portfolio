@@ -1,8 +1,10 @@
 import React from 'react';
-import style from './Projects.module.css';
-import styleContainer from "../../common/styles/Container.module.css";
-import {Project} from "./project/Project";
-import {Title} from "../../common/components/title/Title";
+import style from './Projects.module.scss';
+import styleContainer from '../../common/styles/Container.module.css';
+import {Project} from './project/Project';
+import {Title} from '../../common/components/title/Title';
+import counterImage from '../../assets/images/projects/counter.png';
+import todoImage from '../../assets/images/projects/todolist.png';
 
 export const Projects = React.memo(() => {
     const projects = [
@@ -11,21 +13,27 @@ export const Projects = React.memo(() => {
             title: 'Counter',
             description: 'Simple counter',
             url: 'https://toshaby.github.io/it-incubator-counter/',
-            image: ''
+            style: {
+                backgroundImage: `url(${counterImage})`
+            }
         },
         {
             id: 2,
             title: 'To-Do List',
             description: 'Simple to-do list',
             url: 'https://toshaby.github.io/it-incubator-todo-list-ts/',
-            image: ''
+            style: {
+                backgroundImage: `url(${todoImage})`
+            }
         },
         {
             id: 3,
             title: 'Social network',
-            description: 'Simple social network',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             url: 'https://toshaby.github.io/it-incubator-samurai-way/',
-            image: ''
+            style: {
+                backgroundImage: `url(${counterImage})`
+            }
         }
     ]
 
@@ -42,7 +50,7 @@ export const Projects = React.memo(() => {
                                          title={el.title}
                                          description={el.description}
                                          url={el.url}
-                                         image={el.image}/>
+                                         style={el.style}/>
                             )
                         })
                     }

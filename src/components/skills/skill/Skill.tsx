@@ -11,9 +11,9 @@ type SkillPropsType = {
 export const Skill: React.FC<SkillPropsType> = React.memo(({title, icon}) => {
     return (
         <div className={style.skill}>
-                <FontAwesomeIcon icon={icon}
-                                 size={'5x'}
-                                 color={'white'}/>
+            <FontAwesomeIcon icon={icon}
+                             size={'5x'}
+                             color={'white'}/>
             <h3>{title}</h3>
         </div>
     );
