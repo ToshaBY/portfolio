@@ -5,10 +5,10 @@
     align-items: center;
 }
 .block:nth-child(odd) {
-    background-image: linear-gradient($bgColor1, $bgColor2);
+    background-color: $bgColor1;
 }
 .block:nth-child(even) {
-    background-image: linear-gradient($bgColor2, $bgColor1);
+    background-color: $bgColor2;
 }
 
 .container {

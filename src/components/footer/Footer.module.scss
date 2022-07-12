@@ -3,7 +3,6 @@
 
 .footerBlock {
   min-height: calc(100vh / 3);
-  background-color: #fadb60;
 
   .footerContainer {
     flex-direction: column;
@@ -16,11 +15,10 @@
       justify-content: space-around;
 
       & img {
-        width: 62px;
-        height: 62px;
+        width: 64px;
+        height: 64px;
       }
     }
-
 
     .copyright {
       @include text($fontPrimary, 12px, 200);

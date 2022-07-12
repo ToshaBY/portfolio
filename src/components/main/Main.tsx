@@ -1,6 +1,7 @@
 import React from 'react';
-import style from './Main.module.css';
+import style from './Main.module.scss';
 import styleContainer from '../../common/styles/Container.module.scss';
+import photo from '../../assets/images/photo.jpg'
 
 export const Main = React.memo(() => {
     return (
@@ -11,7 +12,9 @@ export const Main = React.memo(() => {
                     <h1>I'm Anton Rybakou</h1>
                     <p>Front-end developer</p>
                 </div>
-                <div className={style.photo}></div>
+                <div className={style.photo}>
+                    <img src={photo} alt={'myPhoto'}/>
+                </div>
             </div>
         </div>
     );

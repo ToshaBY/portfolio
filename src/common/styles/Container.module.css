@@ -4,11 +4,11 @@
 }
 
 .block:nth-child(odd) {
-  background-image: linear-gradient(#2d2d2d, #525252);
+  background-color: #2d2d2d;
 }
 
 .block:nth-child(even) {
-  background-image: linear-gradient(#525252, #2d2d2d);
+  background-color: #3f3f3f;
 }
 
 .container {

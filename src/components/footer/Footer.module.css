@@ -1,6 +1,5 @@
 .footerBlock {
   min-height: 33.3333333333vh;
-  background-color: #fadb60;
 }
 .footerBlock .footerContainer {
   flex-direction: column;
@@ -13,8 +12,8 @@
   justify-content: space-around;
 }
 .footerBlock .footerContainer .socialBlock img {
-  width: 62px;
-  height: 62px;
+  width: 64px;
+  height: 64px;
 }
 .footerBlock .footerContainer .copyright {
   font-family: "Nunito", sans-serif;

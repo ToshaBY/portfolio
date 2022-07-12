@@ -5,7 +5,7 @@
 
   margin: 0 0 30px;
   @include text($fontPrimary, 24px, 300);
-
+  text-align: center;
   text-transform: capitalize;
   line-height: 1.2;
   letter-spacing: 5px;
