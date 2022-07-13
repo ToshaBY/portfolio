@@ -7,4 +7,4 @@
 - [react-scroll](https://yarnpkg.com/package/react-scroll)
 - [gh-pages](https://yarnpkg.com/package/gh-pages)
 - [tsparticles](https://particles.js.org/)
-- [emailjs](https://yarnpkg.com/package/emailjs)
+- [emailjs](https://www.emailjs.com/docs/examples/reactjs/)
