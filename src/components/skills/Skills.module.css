@@ -4,6 +4,7 @@
 }
 
 .skillsContainer {
+  width: 50%;
   flex-direction: column;
   justify-content: flex-start;
 }

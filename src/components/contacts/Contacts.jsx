@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 import style from './Contacts.module.scss';
 import styleContainer from "../../common/styles/Container.module.scss";
-import styleButton from "../../common/styles/Buttons.module.css";
+import styleButton from "../../common/styles/Buttons.module.scss";
 import {Title} from "../../common/components/title/Title";
 import emailjs from '@emailjs/browser';
 
@@ -20,7 +20,7 @@ export const Contacts = React.memo(() => {
     return (
         <div className={`${styleContainer.block} ${style.contactsBlock}`} id={'contacts'}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-                <Title title={'Contacts'}/>
+                <Title title={'Contact me'}/>
                 <form ref={form} className={style.formContainer} onSubmit={sendEmail}>
                     <input type={'text'} placeholder={'Name'} name={'user_name'}/>
                     <input type={'email'} placeholder={'E-mail'} name={'user_email'}/>
