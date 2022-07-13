@@ -5,7 +5,7 @@ import {Nav} from './nav/Nav';
 
 export const Header = React.memo(() => {
     return (
-        <div className={`${styleContainer.block} ${style.header}`}>
+        <div className={`${styleContainer.block} ${style.header}`} id={'nav'}>
             <Nav/>
         </div>
     );
