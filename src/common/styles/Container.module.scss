@@ -1,33 +1,35 @@
 @import "./sass/variables";
 
 .block {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
+
 .block:nth-child(odd) {
-    background-color: $bgColor1;
+  background-color: $bgColor1;
 }
+
 .block:nth-child(even) {
-    background-color: $bgColor2;
+  background-color: $bgColor2;
 }
 
 .container {
-    width: 90%;
-    height: 100%;
-    margin: 10px auto;
+  width: 90%;
+  height: 100%;
+  margin: 10px auto;
 
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 2;
 }
 
 .contentContainer {
-    width: 100%;
+  width: 100%;
 
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 20px;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-evenly;
 }

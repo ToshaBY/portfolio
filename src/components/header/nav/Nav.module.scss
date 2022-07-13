@@ -2,19 +2,27 @@
 @import '../../../common/styles/sass/mixins';
 
 .nav {
-    width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  @media (max-width: 726px) {
+    width: 100%;
+  }
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.nav a {
-    @include text($fontPrimary, 20px, 200);
+  & a {
+    padding: 20px;
+    @include text($fontPrimary, 24px, 500);
+    letter-spacing: 3px;
     text-decoration: none;
     cursor: pointer;
-}
 
-.nav a:hover {
-    color: yellow;
+    @media (max-width: 726px) {
+      letter-spacing: 0;
+      padding: 3px;
+    }
+
+    &:hover {
+      color: $colorPrimary;
+    }
+  }
 }
