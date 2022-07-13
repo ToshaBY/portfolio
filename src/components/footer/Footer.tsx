@@ -12,7 +12,7 @@ export const Footer = React.memo(() => {
         {id: 1, icon: faGithubSquare, link: 'https://github.com/ToshaBY'},
         {id: 2, icon: faLinkedin, link: 'https://www.linkedin.com/in/tosharybakov/'},
         {id: 3, icon: faTelegram, link: 'https://t.me/untosha'},
-        {id: 4, icon: faEnvelope, link: 'mailto:anton.rybakou@gmail.com'}
+        {id: 4, icon: faEnvelope, link: 'mailto:anton.rybakou@gmail.com'},
     ]
 
     return (
