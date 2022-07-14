@@ -11,7 +11,7 @@ export const Projects = React.memo(() => {
         {
             id: 1,
             title: 'Counter',
-            description: 'Simple counter',
+            description: 'TypeScript / React / Redux / Deploy',
             url: 'https://toshaby.github.io/it-incubator-counter/',
             style: {
                 backgroundImage: `url(${counterImage})`
@@ -20,7 +20,7 @@ export const Projects = React.memo(() => {
         {
             id: 2,
             title: 'To-Do List',
-            description: 'Simple to-do list',
+            description: 'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / Formik / React-router-dom / Unit tests / Deploy',
             url: 'https://toshaby.github.io/it-incubator-todo-list-ts/',
             style: {
                 backgroundImage: `url(${todoImage})`
@@ -29,7 +29,7 @@ export const Projects = React.memo(() => {
         {
             id: 3,
             title: 'Social network',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+            description: 'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / Formik / React-router-dom / Unit tests / Deploy',
             url: 'https://github.com/ToshaBY/it-incubator-samurai-way',
             style: {
                 backgroundImage: `url(${counterImage})`
