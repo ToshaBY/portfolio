@@ -30,7 +30,7 @@ export const Projects = React.memo(() => {
             id: 3,
             title: 'Social network',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-            url: 'https://toshaby.github.io/it-incubator-samurai-way/',
+            url: 'https://github.com/ToshaBY/it-incubator-samurai-way',
             style: {
                 backgroundImage: `url(${counterImage})`
             }
