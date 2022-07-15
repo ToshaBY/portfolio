@@ -5,13 +5,14 @@ import {Project} from './project/Project';
 import {Title} from '../../common/components/title/Title';
 import counterImage from '../../assets/images/projects/counter.png';
 import todoImage from '../../assets/images/projects/todolist.png';
+import socialImage from '../../assets/images/projects/social-network.png';
 
 export const Projects = React.memo(() => {
     const projects = [
         {
             id: 1,
             title: 'Counter',
-            description: 'TypeScript / React / Redux / Deploy',
+            description: 'TypeScript / React / Redux',
             url: 'https://toshaby.github.io/it-incubator-counter/',
             style: {
                 backgroundImage: `url(${counterImage})`
@@ -29,10 +30,10 @@ export const Projects = React.memo(() => {
         {
             id: 3,
             title: 'Social network',
-            description: 'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / Formik / React-router-dom / Unit tests / Deploy',
+            description: 'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / Formik / React-router-dom / Unit tests / Deploy (In progress)',
             url: 'https://github.com/ToshaBY/it-incubator-samurai-way',
             style: {
-                backgroundImage: `url(${counterImage})`
+                backgroundImage: `url(${socialImage})`
             }
         }
     ]
