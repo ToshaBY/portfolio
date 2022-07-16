@@ -70,8 +70,8 @@ export const Main = React.memo(() => {
                                 enable: true,
                                 area: 800,
                             },
-                            value: 50,
-                            max: 250,
+                            value: 100,
+                            max: 300,
                         },
                         opacity: {
                             value: 0.7,
