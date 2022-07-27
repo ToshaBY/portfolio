@@ -34,7 +34,7 @@
 }
 .mainBlock img {
   width: 100%;
-  transform: rotate(-15deg);
+  transform: rotate(15deg);
   z-index: 2;
 }
 

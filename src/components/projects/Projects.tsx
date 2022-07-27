@@ -13,7 +13,7 @@ export const Projects = React.memo(() => {
             id: 1,
             title: 'Counter',
             description: 'TypeScript / React / Redux',
-            url: 'https://toshaby.github.io/it-incubator-counter/',
+            url: 'https://toshaby.github.io/counter/',
             style: {
                 backgroundImage: `url(${counterImage})`
             }
