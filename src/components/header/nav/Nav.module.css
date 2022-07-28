@@ -3,11 +3,6 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
-@media (max-width: 726px) {
-  .nav {
-    width: 100%;
-  }
-}
 .nav a {
   padding: 20px;
   font-family: "Nunito", sans-serif;
@@ -18,14 +13,19 @@
   text-decoration: none;
   cursor: pointer;
 }
-@media (max-width: 726px) {
-  .nav a {
-    letter-spacing: 0;
-    padding: 3px;
-  }
-}
 .nav a:hover {
   color: yellow;
+}
+.nav a:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: auto;
+  right: 0;
+  height: 2px;
+  width: 100%;
+  color: yellow;
+  transition: all 1s linear;
 }
 
 /*# sourceMappingURL=Nav.module.css.map */

@@ -5,9 +5,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  @media (max-width: 726px) {
-    width: 100%;
-  }
 
   & a {
     padding: 20px;
@@ -16,13 +13,20 @@
     text-decoration: none;
     cursor: pointer;
 
-    @media (max-width: 726px) {
-      letter-spacing: 0;
-      padding: 3px;
-    }
-
     &:hover {
       color: $colorPrimary;
+
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: auto;
+        right: 0;
+        height: 2px;
+        width: 100%;
+        color: $colorPrimary;
+        transition: all 1s linear;
+      }
     }
   }
 }
