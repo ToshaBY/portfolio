@@ -22,7 +22,7 @@ export const Projects = React.memo(() => {
             id: 2,
             title: 'To-Do List',
             description: 'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / Formik / React-router-dom / Unit tests / Deploy',
-            url: 'https://toshaby.github.io/it-incubator-todo-list-ts/',
+            url: 'https://toshaby.github.io/todo-list/',
             style: {
                 backgroundImage: `url(${todoImage})`
             }
